@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { X, Send, Loader2 } from 'lucide-react';
 import { inquiryApi, type InquiryRequest } from '@/lib/api';
 import { useAuth } from '@/context/AuthContext';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
 interface InquiryModalProps {
